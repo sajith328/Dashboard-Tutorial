@@ -21,7 +21,7 @@ export const Home = ()  => (
                     
                     <h2 className="text1">Your Name</h2>
 
-                    <h2 className="text">React Developer</h2> 
+                    <h2 className="text">Sajith surendranathan</h2> 
                     </div>
                     
                     
