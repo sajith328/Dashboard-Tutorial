@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#06AED5;
+    --primary-background:#086788;
+    --background-color:#87BFD2;
+    --background-behind:#A1A1A1;
+    --backgorund:#0B192C;
+    --background-body:#e2f7fe;
+    --background-sup:#086788;
+    
+    /* Title and text */
+    --dark-color:black;
+    --white-color:white;
+    --text-color:grey;
+    --title-color:#086788;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:var(--background-body);
+    font-family: "Noto Sans", sans-serif;
+}
+.container{
+    max-width:1200px;
+    width:100%;
+    margin: 0 auto;
+}
+.signup-behind{
+    width:100%;
+    height:225px;
+    background-color: var(--primary-color);
+    border-radius: 0 0 50% 50%;
+}
+.Signup-cards{
+    width:350px;
+    height:auto;
+    margin: 0 auto;
+    background-color: var(--white-color);
+    padding:20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3px 1px var(--primary-color);
+    z-index: 100;
+    backdrop-filter: blur(20px);
+}
+.Login-cards{
+    width:350px;
+    height:auto;
+    margin: 0 auto;
+    background-color: var(--white-color);
+    padding:20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3px 1px var(--primary-color);
+    z-index: 100;
+}
+form h1{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--title-color)
+}
+form h4{
+    font-size: 1rem;
+    font-weight: 300;
+    color:var(--primary-color);
+    margin:1.5rem 0;
+    text-align: center;
+}
+form label{
+    font-size: 1rem;
+    display: flex;
+    color:var(--title-color);
+    padding:2px 0;
+}
+form input{
+    width:100%;
+    padding:3px 2px;
+    border: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    outline: none;
+    margin-bottom: 1rem;
+}
+input[type="button"] {
+    background-color: var(--primary-color);
+    color:var(--white-color);
+    padding:5px;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s ease 0s;
+}
+input[type="button"]:hover{
+    background-color: var(--white-color);
+    color: var(--title-color);
+    box-shadow: 0 0 3px 1px var(--primary-color);
+}
+.Signup-cards p{
+    text-align: center;
+}
+.Signup-cards a{
+    color: var(--title-color);
+}
+.Signup-cards a:hover{
+    text-decoration: none;
+}
+
+.Login-cards p{
+    text-align: center;
+}
+.Login-cards a{
+    color: var(--title-color);
+}
+.Login-cards a:hover{
+    text-decoration: none;
+}
+
+
+/* Service-dental */
+#Service-dental{
+    background-image: linear-gradient(160deg, #87bfd290 50%, #08688892 50%);
+}
+.title-text{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--title-color);
+    text-align: center;
+    display: inline-flex;
+    width:100%;
+}
+.Service-dental-wrapper{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    max-width:500px;
+    height:auto;
+    margin: 0 auto;
+    background-color:var(--white-color);
+    padding:20px;
+    border-radius: 2px;
+    backdrop-filter: blur(20px);
+}
+.input-flex{
+    display: flex;
+    gap:15px;
+}
+.input-book label{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.input-book input{
+    padding:5px;
+    width:100%;
+}
+.Service-dental-wrapper .primary-btn{
+    text-align: center;
+    cursor: pointer;
+}
+@media only screen and (max-width:768px) {
+    .input-flex{
+        display: block;
+    }
+}
+/* End Service-dental */
