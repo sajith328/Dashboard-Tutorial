@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Your Company Name
+          <img src="https://www.daad.io/storage/optionbuilder/uploads/86612-30-2024_0648pmdaad.png"/>
           <i class='fab fa-react'/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
