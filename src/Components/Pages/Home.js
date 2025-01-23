@@ -19,9 +19,9 @@ export const Home = ()  => (
                         
                     <div  className="background">
                     
-                    <h2 className="text1">Your Name</h2>
+                    <h2 className="text1">Sajith Surendranathan</h2>
 
-                    <h2 className="text">React Developer</h2> 
+                    <h2 className="text">Front end develop</h2> 
                     </div>
                     
                     
