@@ -34,7 +34,7 @@ export const Home = ()  => (
                                     
                                     <ph className="text1">This website was built with react. </ph> 
                                     <ph className="text1">To view my WordPress website visit www.yoursite.com. To see my website built
-                                     with HTML, CSS, and JavaScript visit github at https://your company.github.io/github.io/</ph> 
+                                     with HTML, CSS, react.js and JavaScript visit github at https://your company.github.io/github.io/</ph> 
                                     
                             </Row>      
                     </Container>
