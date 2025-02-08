@@ -33,7 +33,7 @@ export const Home = ()  => (
                     <h1>Hello, I’m Ralph Edwards.</h1>
                     <p>Phasellus blandit, metus sit amet euismod facilisis, ante justo mollis elit, eu suscipit tellus lorem non dolor. Aliquam faucibus odio tempus nibh fringilla tincidunt. Proin luctus dui odio, sed egestas erat condimentum non.</p>
                     <div className='one-button'>
-                        <div className='box-yellow'>Send Message <img src='/Images/ArrowRight.png'/></div>
+                        <div className='box-yellow'>Send Message <img src='/Images/all right.png'/></div>
                         <div className='box-white'><img src='/Images/DownloadSimple.png'/>Download cv</div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ export const Home = ()  => (
                <div className='dcotry-two'>
                 <h6>Featured by:</h6>
                 <div className='photo-three'>
-                    <img src='/Images/Logo.png'/>
-                    <img src='/Images/Logo (1).png'/>
+                    <img src='/Images/big boss.png'/>
+                    <img src='/Images/big logo.png'/>
                     <img src='/Images/Logo (2).png'/>
                 </div>
                </div>
@@ -59,7 +59,7 @@ export const Home = ()  => (
                     <div className='card-grid-header'>
                         <div className='card'>
                             <div className='card-header'>
-                                <img src='/Images/Image (2).png'/>
+                                <img src='/Images/image new.png'/>
                             </div>
                             <div className='card-body'>
                                 <h6>CURRENTLY WORKING</h6>
@@ -69,7 +69,7 @@ export const Home = ()  => (
                         </div>
                         <div className='card'>
                             <div className='card-header'>
-                                <img src='/Images/Image (3).png'/>
+                                <img src='/Images/big three.png'/>
                             </div>
                             <div className='card-body'>
                                 <h6 className='color-one'>Jan,2019 to March,2021</h6>
@@ -79,7 +79,7 @@ export const Home = ()  => (
                         </div>
                         <div className='card'>
                             <div className='card-header'>
-                                <img src='/Images/Image (4).png'/>
+                                <img src='/Images/big four.png'/>
                             </div>
                             <div className='card-body'>
                                 <h6 className='color-one'>Mar,2017 to Dec,2018</h6>
@@ -91,8 +91,8 @@ export const Home = ()  => (
                 </div>
             </div>
             <div className='icon-div'>
-                <img src='/Images/Arrow Button.png'/>
-                <img src='/Images/Arrow Button.png'/>
+                <img src='/Images/button on.png'/>
+                <img src='/Images/button on.png'/>
             </div>
             </main>
             <div className='container-four'>
@@ -104,7 +104,7 @@ export const Home = ()  => (
                     <h6 className='text-small'>Psychiatrist Doctor</h6>
                    </div>
                     <div className='page-photo'>
-                        <img src='/Images/Image (5).png'/>
+                        <img src='/Images/team three.png'/>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ export const Home = ()  => (
                             <div className='award-box'>
                                 <div className='wrapper-one'>
                                     <div className='header-award'>
-                                        <img src='/Images/Image (6).png'/>
+                                        <img src='/Images/award one.png'/>
                                         <span>01</span>
                                     </div>
                                     <div className='body-award'>
@@ -171,7 +171,7 @@ export const Home = ()  => (
                                 </div>
                                 <div className='wrapper-one'>
                                 <div className='header-award'>
-                                        <img src='/Images/Image (7).png'/>
+                                        <img src='/Images/award two.png'/>
                                         <span className='wrapper-yellow'>03</span>
                                     </div>
                                     <div className='body-award'>
@@ -181,7 +181,7 @@ export const Home = ()  => (
                                 </div>
                                 <div className='wrapper-two'>
                                 <div className='header-award'>
-                                        <img src='/Images/Image (8).png'/>
+                                        <img src='/Images/award three.png'/>
                                         <span>02</span>
                                     </div>
                                     <div className='body-award'>
@@ -197,7 +197,7 @@ export const Home = ()  => (
                     <div className='book-box'>
                     <div className='div-book'>
                         <div className='book-photo'>
-                            <img src='/Images/Image (9).png'/>
+                            <img src='/Images/book one.png'/>
                         </div>
                     </div>
                     <div className='book-div'>
@@ -205,7 +205,7 @@ export const Home = ()  => (
                             <h1>The Highly Sensitive Person</h1>
                             <p>Are you easily overwhelmed by such things as bright lights, strong smells, coarse fabrics, or sirens nearby?</p>
                             <div className='book-profile'>
-                                <img src='/Images/Photo.png'/>
+                                <img src='/Images/profile.png'/>
                                 <div className='content-book'>
                                     <h6>Writen by:</h6>
                                     <h2>Kevin Gilbert</h2>
@@ -225,15 +225,15 @@ export const Home = ()  => (
                             <h1>863+ Patients Success Stories</h1>
                             <p>Mauris porttitor eleifend odio, id venenatis orci ornare ac nullam id convallis nisl.</p>
                             <div className='petient-icon'>
-                                <img src='/Images/Arrow Button.png'/>
-                                <img src='/Images/Arrow Button.png'/>
+                                <img src='/Images/button on.png'/>
+                                <img src='/Images/button on.png'/>
                             </div>
                         </div>
                     </div>
                     <div className='div-petient'>
                         <div className='petient-box'>
                             <div className='petient-content'>
-                            <img src='/Images/Double Quotes.png'/>
+                            <img src='/Images/balck.png'/>
                                 <p>When a military doctor tracks down his former fiancee's kidnapped niece, he discovers a complex human trafficking ring in Goa. He then weaves an intricate trap to capture the perpetrators.</p>
                             </div>
                         </div>
@@ -267,35 +267,6 @@ export const Home = ()  => (
                 </div>
 
    </div>		
-
-
-//             <div>  
-
-//                     <div>
-                        
-//                     <div  className="background">
-                    
-//                     <h2 className="text1">Your Name</h2>
-
-//                     <h2 className="text">React Developer</h2> 
-//                     </div>
-                    
-                    
-                    
-
-                    
-                    
-//                         <Container>
-//                             <Row>
-                                    
-//                                     <ph className="text1">This website was built with react. </ph> 
-//                                     <ph className="text1">To view my WordPress website visit www.yoursite.com. To see my website built
-//                                      with HTML, CSS, and JavaScript visit github at https://your company.github.io/github.io/</ph> 
-                                    
-//                             </Row>      
-//                     </Container>
-//                 </div>
-// </div>
 		
 
 )
