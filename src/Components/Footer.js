@@ -14,7 +14,7 @@ const Footer = () => {
                         <ul className="list-unstyled">
 
                         <li>Email - your email</li>
-                        <li>Phone - 000-000-0000</li>
+                        <li>Phone - 00-000-0000</li>
                        
                         </ul>
                     </div>
