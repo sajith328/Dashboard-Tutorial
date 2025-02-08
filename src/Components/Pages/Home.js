@@ -52,7 +52,7 @@ export const Home = ()  => (
         <main className='main'>
             <div className='main-text'>
             <h1>My Working History</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus leo vel augue suscipit bibendum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Maecenas dapibus leo vel augue suscipit bibendum.</p>
             </div>
             <div className='contant-header'>
                 <div className='header-content'>
