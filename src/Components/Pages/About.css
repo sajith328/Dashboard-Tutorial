@@ -1,4 +1,4 @@
-.height-100vh {
+/* .height-100vh {
     height: 100vh;
     background: lightgrey;
   }
@@ -107,6 +107,145 @@
     opacity: 100%;
  
  
+  } */
+
+ .container-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+ }
+
+ .container-work h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #121314;
+  padding-left: 1rem;
+ }
+
+ .pages-about {
+  display: flex;
+  align-items: center;
+ }
+
+ .pages-about .links-work {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 35px;
+ }
+
+ .links-work li {
+  list-style: none;
+ }
+
+ .links-work li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #121314;
+ }
+
+ .main-work {
+  /* padding-top: 2.5rem; */
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+ }
+
+ .header-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ .work-header {
+  flex-grow: 1;
+  padding-bottom: 13rem;
+ }
+
+ .card-gird-work {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  row-gap: 1.5rem;
+ }
+
+ @media(min-width: 600px) {
+  .card-gird-work {
+    grid-template-columns: repeat(1, 1fr);
+  }
+ }
+
+ @media(min-width: 1200px) {
+  .card-gird-work {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ }
+
+ .work {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+ }
+
+ .work img {
+  width: 420px;
+  height: 300px;
+ }
+
+ .button-work {
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: #F5F6F7;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #121314;
+  position: absolute;
+  left: 50%;
+  top: 92%;
+  transform: translate(-50%, -50%);
+ }
+
+ @media(max-width: 750px) {
+  .container-work {
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
   }
 
- 
+  .container-work h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: 60px;
+  }
+
+
+  .pages-about .links-work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-work {
+    padding-top: 6rem;
+    position: relative;
+  }
+
+  .button-work {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ }
