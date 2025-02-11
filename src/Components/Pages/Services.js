@@ -225,7 +225,7 @@ export const Services = ()  => (
                             <h1>Starting your traveling blog with Vasco</h1>
                         </div>
                         <div className='footer-blog'>
-                            <p>It’s a situation every designer knows; we work on a feature, we release it, but always we say to ourselves:</p>
+                            <p>It’s a situation every designer knows; we work on a feature , we release it, but always we say to ourselves:</p>
                             <a href='#'>Read More
                                 <img src='/Images/ArrowRight.png'/>
                             </a>
