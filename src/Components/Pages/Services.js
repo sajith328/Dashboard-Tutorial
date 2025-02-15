@@ -45,7 +45,7 @@ export const Services = ()  => (
                             <h1>How to choose the right colors when creating a website?</h1>
                         </div>
                         <div className='footer-blog'>
-                            <p>Many of us hope the PM will take care of it, and we will continue to improve the features we release.</p>
+                            <p>Many of us hope the PM will take care of it, and We will continue to improve the features we release.</p>
                             <a href='#'>Read More
                                 <img src='/Images/ArrowRight.png'/>
                             </a>

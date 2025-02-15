@@ -10,7 +10,7 @@ export const About = ()  => (
 
     <div className='page-wrapper'>
            <div className='container-work'>
-        <h1>Latest case study</h1>
+        <h1>Latest case study </h1>
         <div className='pages-about'>
             <ul className='links-work'>
                 <li><a href='#'>ALL</a></li>

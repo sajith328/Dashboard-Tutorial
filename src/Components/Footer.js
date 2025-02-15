@@ -6,7 +6,7 @@ const Footer = () => {
     <section className='footer'>
         <div className='footer-row'>
             <div className='footer-col'>
-                <p>Looking for a Neurologists Doctor? Get in touch and let's chat!</p>
+                <p>Looking for a Neurologists Doctor? Get in touch and Let's chat!</p>
             </div>
             <div className='footer-col'>
                 <p className='footer-small'>Looking for a Neurologists Doctor? Get in touch and let's chat!</p>
