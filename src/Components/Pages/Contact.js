@@ -3,40 +3,25 @@ import { Row, Container} from 'react-bootstrap'
 import './Contact.css';
 export const Contact = ()  => (
     /* Home section */
-            <div>  
-            <Container>      
-                            <Row>
-                                <section class="height-50vh center-aligned">
-                                    <img class="image" src="/Images/cartoon.jpg" alt=""/> 
-                                        
-                                </section>
-                            </Row> 
-                        </Container>
-                    <div>
-                    <div className="section-title">
-                    
-                        <h1 class="text-center">_____________________________________________________________</h1>
 
-                {/* Services section */}
+    <div>  
 
-                        <h2 className="section-title">Email - Your email address</h2>
-                    
-                        <Row>
-                                <section class="height-50vh center-aligned">
-                                    <img class="image" src="/Images/9.png" alt=""/>     
-                                </section>
-                            </Row> 
-                           
-                            <Row>
-                                <section class="height-50vh center-aligned">
-                                    <img class="image" src="/Images/10.png" alt="" />     
-                                </section>
-                            </Row>  
-                    
-                    </div>
+        <div className='contact-container'>
+            <div className='contact-width-500 wid-auto'>
+                <img src='Images/404-page.png'></img>
 
+                <div className='contact-404-page text-align'>
+                    <h1 className='color-blue size-48'>Page not found...</h1>
+                    <h5>Something went wrong. It’s look that your requested could not be found.
+                         It’s look like the link is broken or the page is removed.
+                    </h5>
+
+                    <button><i class="fa fa-home"></i> Go to home</button>
                 </div>
-</div>
+            </div>
+        </div>
+
+    </div>
 		
 
 )

@@ -1,113 +1,160 @@
+:root{
+  /* -----font weight ---- */
+  --pmo-weight-900:900;
+  --pmo-weight-700:700;
+  --pmo-weight-600:600;
+  --pmo-weight-500:500;
+  --pmo-weight-400:400;
 
-.height-100vh {
-    height: 100vh;
-    background: lightgrey;
-  }
-  
-  .center-aligned {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .background-image {
-    
-    opacity: .3;
-    width: 100%;
-    object-fit:cover; 
-    height: 100%;
-   
-  }
+  /* -----font size ---- */
 
-  
-  
-  .text {
-    text-align: center;
-    position: relative;
-    color: black;
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    font-size: 100px;
-    background: transparent  ; 
-    padding: 90px;
-    opacity: 100;
-  }
+  --font-size-48-h2: 48px;
+  --font-size-18-inter: 18px;
+  --font-size-24-inter: 24px;
+  --font-size-16-h6: 16px;
+  --font-size-40-h3: 40px;
 
-  .text1 {
+  /* ---- color ---- */
 
-    text-align: center;
-    position: relative;
-    color: rgb(20, 16, 236);
-    font-family:  'Gill Sans ', 'Gill Sans MT ';
-    font-size: 60px;
-    background: transparent  ; 
-    padding: 60px;
-  }
- 
-  .icon-title{  
-    text-align: center;
-    position: relative;
-    color: rgb(139, 0, 81);
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    background: white;
-    padding: 10px;
-    font-size: 15pt;
-  }
+  --color-heading: #0D2159;
+  --color-small: #536D97;
+}
 
-  .section-title{  
-    text-align: center;
-    position: relative;
-    color: rgb(139, 0, 81);
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    background: rgb(191, 235, 198);
-    padding: 10px;
-    font-size: 30pt;
-  }
+/* ------ short ----- */
 
-  .about-tom{  
-    text-align: center;
-    position: relative;
-    color: rgb(139, 0, 81);
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    background: white;
-    padding: 10px;
-    font-size: 25pt;
-  }
- 
-  .h1{
-    position: absolute;
-    color: darkcyan;
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    background: white;
-    padding: 10px;
-    font-size: 10pt;
-  }
-  
-  h2 {
-    text-align: center;
-    position: absolute;
-    color: darkcyan;
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    background: white;
-    padding: 30px;
-  }
-  
-  h3 {
-    position: absolute;
-    color: darkcyan;
-    font-family:  'Gill Sans', 'Gill Sans MT';
-    background: white;
-    padding: 20px;
-  }
+.wid-auto {
+  width: 100%;
+  margin: 0 auto;
+}
 
-  .background{
-    background-image: url(./../hero.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 100%;
- 
- 
-  }
+.text-align {
+  text-align: center;
+}
 
- 
+.color-blue {
+  color: var(--color-heading);
+}
+
+.color-small {
+  color: var(--color-small);
+}
+
+.weight-600 {
+  font-weight: var(--pmo-weight-600);
+}
+
+.size-48 {
+  font-size: var(--font-size-48-h2);
+}
+
+.all-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* --------- section blog --------- */
+
+.background-blog-wite {
+  background-color: white;
+  padding: 10vmax 0 10vmax;
+}
+
+.background-blog-wite .card-blog-book {
+  max-width: 1320px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-blog {
+  padding-bottom: 4vmax;
+}
+
+.text-blog h6 {
+  font-size: 20px;
+  font-weight: var(--pmo-weight-400);
+  color: var(--color-small);
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.background-blog-wite .card-blog-book {
+  max-width: 1320px;
+}
+
+.card-blog-book .card-blog-inner {
+  padding: 12px;
+}
+
+.card-blog-inner .blog-card-text {
+  width: 416px;
+  height: 542px;
+  border-radius: 8px;
+  background-color: rgba(245, 246, 247, 1);
+  overflow: hidden;
+}
+
+.blog-card-text img {
+  width: 100%;
+  height: 264px;
+  object-fit: cover;
+}
+
+.blog-card-text .text-view .h6-style {
+  font-size: 16px !important;
+  font-weight: var(--pmo-weight-400) !important;
+  color: var(--color-small) !important;
+  line-height: 24px !important;
+  padding-right: 29px !important;
+} 
+
+.text-view .h6-style:last-child {
+  margin-top: 20px;
+}
+
+.text-view h3{
+  padding-right: 13px;
+  font-size: 20px;
+  font-weight: var(--pmo-weight-600);
+  line-height: 28px;
+}
+
+.blog-card-text .text-view  {
+  padding: 30px;
+}
+
+.text-view h6 span {
+  font-size: 16px !important;
+  font-weight: var(--pmo-weight-400) !important;
+  color: var(--color-small) !important;
+  padding: 2px !important;
+  background: none !important;
+
+} 
+
+.text-view a {
+  display: block;
+  text-decoration: none;
+  font-size: var(--font-size-18-inter);
+  font-weight: var(--pmo-weight-600);
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.background-blog-wite button {
+  outline: 0;
+  border: 0;
+  padding: 20px 32px;
+  margin-top: 30px;
+  background: linear-gradient(90deg, rgba(146, 73, 242, 0.1), rgba(255, 95, 73, 0.1));
+  font-size: var(--font-size-18-inter);
+  font-weight: var(--pmo-weight-600);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
+.background-blog-wite button i {
+  margin-right: 10px;
+}
+
