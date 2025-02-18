@@ -1,4 +1,4 @@
-.height-100vh {
+/* .height-100vh {
   height: 100vh;
   background: lightgrey;
 }
@@ -30,16 +30,15 @@
 
 
 
-}
+} */
 
 
 
-.text {
+/* .text {
   position: absolute;
   color: rgb(21, 107, 13);
   font-family:  'Cursive';
   font-size: 100px;
-/*   background: darkcyan; */
   padding: 60px;
 }
 
@@ -62,6 +61,6 @@
   width:25;
   height: 25;
 
-}
+} */
 
 
