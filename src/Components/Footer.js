@@ -4,50 +4,49 @@ const Footer = () => {
     return(
        
         <div className="footer-container">
+      
        {/*    <h1>Footer HOURS</h1> */}
             <div className="container">
-                    <div className='footer-content'>
-                        <div className='footer-one'>
-                            <div className='footer-flex1'>
-                                <div className='footer-image'>
-                                <img class="Footer-col" src="/Images/Image.png"/>
-                                </div>
-                                <div className='footer-text'>
-                                <h5 className='Title-h5'>STAY IN TOUCH</h5>
-                                <h1 className='Title-H1'>You want to meet with<br/> me, Book appoinments!</h1>
-                                <p className='Text-P'>Integer nec tellus nisi. Orci varius natoque penatibus et <br/> magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="row">
+                    {/* Column1 */}
+                    <div className="col">
+                        <h4>Your Company Name</h4>
+                        <ul className="list-unstyled">
 
-                                <div className='Footer-Email'>
-                                    <i class='fas fa-envelope-square'></i>
-                                    <input type='Email' name='Email' placeholder='Email Address'></input>
-                                    <button className='Title-h6'>Book Appointments</button>
-                                </div>
-                                <hr/>
-
-                                <div className='footer-icons-follow'>
-                                <h3 className='Title-H3'>FOLLOW ME ON SOCIAL MEDIA</h3>
-                                <div className='footer-icons'>
-                                <div className='rows-icons'>
-                                    <div className='cards-icons'>
-                                    <i class='fab fa-linkedin-in'></i>
-                                    <i class='fa fa-twitter'></i>
-                                    <i class="fa fa-instagram"></i>
-                                    <i class='fab fa-whatsapp'></i>
-                                    <i class="fa fa-facebook-square"></i>
-                                    <i class='fab fa-medium-m'></i>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                                </div>
-                    
-                            </div>
-                        </div>
+                        <li>Email - your email</li>
+                        <li>Phone - 000-000-0000</li>
+                       
+                        </ul>
                     </div>
+                    {/* Column2*/}
+                    <div className="col">
+                        <h4>Address</h4>
+                        <ul className="list-unstyled">
+                        <li>You</li>
+                        <li>Some street</li> 
+                        <li>some state</li> 
+                        </ul>
+                    </div>
+                    {/* Column3 */}
+                    <div className="col">
+                        <h4>Hours</h4>
+                        <ul className="list-unstyled">
+                        <li>Monday - Friday</li>
+                        <li>8:00am - 4:00pm</li> 
+                        
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div className="row">
                     <p className="col-sm">
-                            &copy; 2022 Kalervo Pohjamo from Finland.
-                            {/* &copy;{new Date().getFullYear()} © 2022 Kalervo Pohjamo from Finland. */}
+                            &copy;{new Date().getFullYear()} Your Name | All rights reserved
+
                     </p>
+
+
+
+                </div>
             </div>
            
         </div>
