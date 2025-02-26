@@ -40,8 +40,8 @@ export const Services = ()  => (
                 
                     {/* Services section */}
                     <h1 class="text-center">_____________________________________________________________</h1>
-                    <h2 className="section-title">Services I provide</h2>
-                    <h2 className="about-tom">I develop and maintain websites.  I am not satisfied until you are satisfied.    
+                    <h2 className="section-title">S_K Don I provide</h2>
+                    <h2 className="about-tom">S_K experience skill any. 
 
                 </h2>
                     
