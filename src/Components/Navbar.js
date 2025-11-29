@@ -26,14 +26,14 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
+    <header className='header'>
+            <nav className='navbar'>
+               <div className='menu-icon' onClick={handleClick}>
+                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                </div>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img class="image-logo" src="/Images/CEO.png"/>
+          <h1>BESTSHOP</h1>
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -86,9 +86,19 @@ function Navbar() {
               </Link>
               </li>
           </ul>
-         
-        </div>
+         <div className='navbar-icon'>
+          <form action='#'>
+            <div className='input-field'>
+             <div className='img-picture'>
+               <img src='/Images/search.svg' />
+               <img src='/Images/cart.svg' />
+             </div>
+               {/* <input type='seach' placeholder='Search' /> */}
+            </div>
+          </form>
+         </div>
       </nav>
+    </header>
     </>
   );
 }
